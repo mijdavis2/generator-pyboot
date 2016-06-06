@@ -14,7 +14,7 @@ describe('generator-pyboot:app', function () {
   });
 
   it('creates root files', function () {
-    assert.file([,
+    assert.file([
       'requirements.txt',
       '.travis.yml',
       '.coveragerc',
