@@ -31,7 +31,7 @@ npm install -g generator-pyboot
 ```
 mkdir <app_name>
 cd <app_name>
-yo weppy-mvc <app_name> <github_username>
+yo pyboot <app_name> <github_username>
 ```
 
 - **app_name:** What you want your application to be called.
