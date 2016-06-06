@@ -3,9 +3,10 @@ var path = require('path');
 var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 var testAppName = 'name_x';
+var testAppTitle = 'Name X';
 var testUserName = 'username_x';
 
-describe('generator-weppy-mvc:app', function () {
+describe('generator-pyboot:app', function () {
   before(function (done) {
     helpers.run(path.join(__dirname, '../app'))
       .withArguments([testAppName, testUserName])
@@ -25,9 +26,13 @@ describe('generator-weppy-mvc:app', function () {
     assert.file([
       'README.md'
     ]);
+  });
+  it('substitutes placeholders for inputs', function () {
     assert.fileContent('README.md', testAppName);
-    assert.noFileContent('README.md', 'app_name');
+    assert.fileContent('README.md', testAppTitle);
     assert.fileContent('README.md', testUserName);
-    assert.noFileContent('README.md', 'user_name');
+    assert.noFileContent('README.md', 'appName');
+    assert.noFileContent('README.md', 'appTitle');
+    assert.noFileContent('README.md', 'userName');
   });
 });

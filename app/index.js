@@ -25,18 +25,18 @@ module.exports = generators.Base.extend({
         this.templatePath('*'),
         this.destinationPath(),
         {
-          app_name: this.namespace,
-          app_title: _.startCase(this.namespace),
-          user_name: this.username
+          appName: this.namespace,
+          appTitle: _.startCase(this.namespace),
+          userName: this.username
         }
     );
     this.fs.copyTpl(
         this.templatePath('.*'),
         this.destinationPath(),
         {
-            app_name: this.namespace,
-            app_title: _.startCase(this.namespace),
-          user_name: this.username
+          appName: this.namespace,
+          appTitle: _.startCase(this.namespace),
+          userName: this.username
         }
   );
   }
