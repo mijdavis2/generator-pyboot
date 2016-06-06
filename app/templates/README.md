@@ -21,4 +21,4 @@ MIT
 [coverall-img]: https://coveralls.io/repos/github/<%= userName %>/<%= appName %>/badge.svg?branch=master
 [coverall-url]: https://coveralls.io/github/<%= userName %>/<%= appName %>?branch=master
 [codacy-image]: https://api.codacy.com/project/badge/Grade/ce0ad20ca59947af86b0f17a5779c804
-[codacy-url]: https://www.codacy.com/app/<% userName %>/<% appName %>?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=<% userName %>/<% appName %>&amp;utm_campaign=Badge_Grade
+[codacy-url]: https://www.codacy.com/app/<%= userName %>/<%= appName %>?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=<%= userName %>/<%= appName %>&amp;utm_campaign=Badge_Grade
