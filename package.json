@@ -1,6 +1,6 @@
 {
   "name": "generator-pyboot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bootstrap a new python project.",
   "keywords": [
     "yeoman-generator",
