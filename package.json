@@ -1,0 +1,42 @@
+{
+  "name": "generator-pyboot",
+  "version": "0.0.1",
+  "description": "Bootstrap a new python project.",
+  "keywords": [
+    "yeoman-generator",
+    "python",
+    "yo"
+  ],
+  "main": "app/index.js",
+  "homepage": "https://mdavisinsc.com",
+  "directories": {
+    "test": "test",
+    "app": "app"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mijdavis2/generator-pyboot.git"
+  },
+  "author": "Michael Davis <mdavisinsc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "codacy-coverage": "^1.1.3",
+    "glob": "^7.0.3",
+    "lodash": "^4.11.1",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0",
+    "nodegit": "^0.12.2",
+    "yeoman-generator": "^0.20.2",
+    "yosay": "^1.1.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha-lcov-reporter": "^1.2.0",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.1.0"
+  }
+}
