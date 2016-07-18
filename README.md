@@ -7,15 +7,19 @@
  
 [![NPM][npm-info-image]][npm-info-url]
 
+**To generate a pypi (pip) package - check out [generator-pypi-master](https://github.com/mijdavis2/generator-pypi-master)**
+
 Bootstrap a new python project.
 
 ## Features
 
 - Easy virtualenv setup script
-- README.md
-- Travis-Ci yml setup
-- Gitignore with the usual suspects.
+- Pre-badged README.md
+- Travis-Ci yml setup with suggested testing
+- Gitignore with the usual suspects
 - Pre-populated requirements.txt
+- License generator
+- Github feature templates
 
 ## Installation
 
@@ -29,18 +33,13 @@ npm install -g generator-pyboot
 ## Usage
 
 ```
-mkdir <app_name>
-cd <app_name>
-yo pyboot <app_name> <github_username>
+yo pyboot
 ```
-
-- **app_name:** What you want your application to be called.
-- **github_username:** Used to create links/badges for your readme.
 
 ## Testing
 
 ``` 
-mocha
+npm test
 ```
 
 ## License

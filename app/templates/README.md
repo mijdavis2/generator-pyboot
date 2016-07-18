@@ -4,6 +4,23 @@
 
 # <%= appTitle %>
 
+<%= packageDescription %>
+
+## Requirements
+
+- Python <%= reqMajor %>.<%= reqMinor %>.<%= reqPatch %>+
+
+## Setup
+
+To automatically install virtualenv and create a new venv,
+use the provided setup script:
+
+```
+. ./setup.sh -p python<%= reqMajor %>.<%= reqMinor %>.<%= reqPatch %>
+```
+
+Otherwise
+
 ## Test
 
 ```
